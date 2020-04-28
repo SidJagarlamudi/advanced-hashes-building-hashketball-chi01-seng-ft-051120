@@ -1,6 +1,6 @@
 # Write your code here!
 def game_hash 
-  (
+  {
   home: {
 team_name: "Brooklyn Nets",
 colors: ["Black", "White"],
@@ -58,7 +58,7 @@ slam_dunks: 15},
 },
 away: { team_name: "Charlotte Hornets",
 colors: ["Turquoise","Purple"],
-players: players: [
+players: [
   {
     player_name: "Jeff Adrien",
 number: 4,
@@ -112,4 +112,7 @@ slam_dunks: 5},
 }
 ]
 }
-)
+
+}
+end
+
